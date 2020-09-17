@@ -16,7 +16,7 @@ ${data.description}
 - [Licence](#Licence)
 - [Contributors](#Contributors)
 - [Tests](#Tests)
-- [Repository Link](#Repository)
+- [Questions](#questions)
 - [GitHub Info](#GitHub) 
 ## Installation
         ${data.installation}
@@ -29,7 +29,8 @@ ${data.contributing}
 ## Test
 ### To run tests, run the following command:
 ${data.test}
-
+## Questions
+For any other questions, please send me an email at: ${data.email}.
 
 `;
 }

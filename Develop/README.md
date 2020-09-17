@@ -14,7 +14,7 @@ This is a CLI that prompts the user with a series of questions, the user answers
 - [Licence](#Licence)
 - [Contributors](#Contributors)
 - [Tests](#Tests)
-- [Repository Link](#Repository)
+- [Questions](#questions)
 - [GitHub Info](#GitHub) 
 ## Installation
         npm install
@@ -25,7 +25,10 @@ Open up your terminal or git bash, navigate to the project folder. To make it ea
 ## Contributors
 [![GitHub license](https://img.shields.io/badge/madeby-@ayshasanyang-orange)](ayshasanyang)
 ## Test
-### To run tests, run the following command:
-npm test
+None
+## Questions
+If you have any questions, please send me an email at: isasanyang1986@yahoo.co.uk.
+
+![Readme](./Develop/images/readme.gif )
 
 
