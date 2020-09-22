@@ -26,9 +26,10 @@ const questions = [
         message: "Please provide the project usage"
     },
     {
-        type: "input",
-        name: "licence",
-        message: "Please provide the project license or your badge link"
+        type: "list",
+        message: "Please select a license",
+        choices: ["Apache", "MIT", "ISC", "GNU GPLv3"],
+        name: "license",
     },
     {
         type: "input",
@@ -54,7 +55,10 @@ const questions = [
 ];
 
 // function to write README file
-inquirer
+// function to initialize program
+function init() {
+
+    inquirer
     .prompt(questions)
     .then(function(data){
         const queryUrl = `https://api.github.com/users/${data.username}`;
@@ -79,10 +83,6 @@ inquirer
         });
 
 });
-
-// function to initialize program
-function init() {
-
 }
 
 // function call to initialize program

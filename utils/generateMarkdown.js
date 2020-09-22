@@ -8,12 +8,13 @@ function generateMarkdown(data, githubInfo) {
 - [GitHub Profile](${githubInfo.profile})
   ${data.badge}
 ## Description
+
 ${data.description}
 ## Table of contents
 - [Description](#Description)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Licence](#Licence)
+- [License](#License)
 - [Contributors](#Contributors)
 - [Tests](#Tests)
 - [Questions](#questions)
@@ -22,12 +23,14 @@ ${data.description}
         ${data.installation}
 ## Usage
 ${data.usage}
-## Licence
-${data.licence}
+## License
+![License](https://img.shields.io/badge/License-${data.license}-blue.svg "License Badge")
+
 ## Contributors
-${data.contributing}
+![Contributors](https://img.shields.io/github/contributors-${data.contributing}/badges/shields.svg)
+
 ## Test
-### To run tests, run the following command:
+
 ${data.test}
 ## Questions
 For any other questions, please send me an email at: ${data.email}.
