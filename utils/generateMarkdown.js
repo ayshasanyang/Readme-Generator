@@ -29,7 +29,7 @@ ${data.usage}
 ## Contributors
 ![Contributors](https://img.shields.io/github/contributors-${data.contributing}/badges/shields.svg)
 
-## Test
+## Tests
 
 ${data.test}
 ## Questions

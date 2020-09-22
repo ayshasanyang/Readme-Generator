@@ -4,7 +4,7 @@
   ![My Image](https://avatars2.githubusercontent.com/u/18455437?v=4&s=80)
 - Isatou D sanyang
 - [GitHub Profile](https://github.com/ayshasanyang)
-  
+
 ## Description
 
 This is a CLI that prompts the user with a series of questions, the user answers the questions then generate a README.md file.
@@ -26,10 +26,11 @@ Open up your terminal or git bash, navigate to the project folder. To make it ea
 
 ## Contributors
 [![GitHub Contributors](https://img.shields.io/badge/madeby-@ayshasanyang-orange)](ayshasanyang)
-## Test
+
+## Tests
 
 None
 ## Questions
 For any other questions, please send me an email at: isasanyang1986@yahoo.co.uk.
 
-![Readme](images/readme.gif )
+![Readme](images/readmegenerator.gif )
